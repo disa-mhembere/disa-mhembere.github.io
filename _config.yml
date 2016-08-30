@@ -3,7 +3,7 @@
 # Site settings
 title: newsite
 
-baseurl: "/"
+baseurl: "/newsite"
 url: "http://disa-mhembere.github.io"
 # url: "http://127.0.0.1:4000"
 
