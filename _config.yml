@@ -15,13 +15,12 @@ author:
   email: disa@jhu.edu
   facebook_username: facebook_example
   github_username: disa-mhembere
-  head_img: 'static/img/landing/Jack.jpg'
+  head_img: 'static/img/landing/disa.jpg'
 
 # Website settings
 title: "Disa Mhembere"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
-# url: "http://127.0.0.1:4000"
+description: "Disa Mhembere Personal Website"
+keywords: "Disa Mhembere,Johns Hopkins University,JHU,computer science,MIT,IBM"
 
 # blog img path
 img_path: 'http://www.jack003.com/static/img/blog'
