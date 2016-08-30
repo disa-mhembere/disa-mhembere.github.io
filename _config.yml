@@ -4,7 +4,7 @@
 title: newsite
 
 baseurl: "/"
-url: "http://disa-mhembere.github.io/newsite/"
+url: "http://disa-mhembere.github.io/"
 # url: "http://127.0.0.1:4000"
 
 # author
@@ -18,11 +18,9 @@ author:
   head_img: 'static/img/landing/Jack.jpg'
 
 # Website settings
-title: "Jalpc"
+title: "Disa Mhembere"
 description: "Jack's blog,use Jekyll and github pages."
 keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
-baseurl: "/"
-url: "http://www.jack003.com"
 # url: "http://127.0.0.1:4000"
 
 # blog img path
