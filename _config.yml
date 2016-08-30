@@ -3,8 +3,8 @@
 # Site settings
 title: newsite
 
-baseurl: "/newsite"
-url: "http://disa-mhembere.github.io"
+baseurl: "/"
+url: "http://disa-mhembere.github.io/newsite"
 # url: "http://127.0.0.1:4000"
 
 # author
