@@ -29,7 +29,7 @@ img_path: '/' # TODO
 jingyu:
   first_name: 'Disa'
   last_name: 'Mhembere'
-  description: 'Painter.'
+  description: 'Hacker, Entrepreneur, Friend, Scholar and Athlete'
   link: 'https://www.linkedin.com/in/disa-mhembere-0446a87'
   email: 'disa@jhu.edu'
 
@@ -73,17 +73,13 @@ index:
   life: 'Life'
 
 # donate
-donate:
-  wechat: 'static/img/pay/wechat.png'
-  alipay: 'static/img/pay/alipay.png'
-
-# share
-bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
+#donate:
+#  wechat: 'static/img/pay/wechat.png'
+#  alipay: 'static/img/pay/alipay.png'
 
 # google analytics
-ga:
-  id: UA-73784599-1
+#ga:
+#  id: UA-73784599-1
 
 # Build settings
 encoding: "utf-8"
