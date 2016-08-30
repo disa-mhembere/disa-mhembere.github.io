@@ -23,15 +23,15 @@ description: "Disa Mhembere Personal Website"
 keywords: "Disa Mhembere,Johns Hopkins University,JHU,computer science,MIT,IBM"
 
 # blog img path
-img_path: 'http://www.jack003.com/static/img/blog'
+img_path: '/' # TODO
 
 # social link
 jingyu:
-  first_name: 'Yu'
-  last_name: 'Jing'
+  first_name: 'Disa'
+  last_name: 'Mhembere'
   description: 'Painter.'
-  link: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
+  link: 'https://www.linkedin.com/in/disa-mhembere-0446a87'
+  email: 'disa@jhu.edu'
 
 # landing page
 landing:
