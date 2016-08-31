@@ -37,6 +37,7 @@ linkedin:
 landing:
   home: 'Home'
   about: 'About'
+  interests: 'Interests'
   career: 'Career'
   skills: 'Skills'
   projects: 'Project'
