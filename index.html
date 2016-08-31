@@ -111,9 +111,7 @@ permalink: /
                         </li>
                         <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a>
                         </li>
-                        <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="{{ site.url}}/feed.xml" target="blank"><i class="fa fa-rss"></i></a>
+                        <li><a href="{{ site.linkedin.link }}" target="blank"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -122,7 +120,7 @@ permalink: /
             <div class="col-xs-2 wow fadeInRight">
                 <div class="team-member">
                     <div class="vote-icon">
-                        <i class="icon-angular"></i>
+                        <i class="icon-cplusplus"></i>
                     </div>
                 </div>
             </div>
@@ -130,16 +128,34 @@ permalink: /
             <div class="col-xs-2 wow fadeInRight">
                 <div class="team-member">
                     <div class="vote-icon">
-                        <i class="icon-docker"></i>
+                        <i class="icon-git"></i>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><span data-i18n="about_me.des">
-                    I am a Python engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.
+                <p><span>
+                    I am a PhD student in Computer Science at the <a href="http://www.cs.jhu.edu/" target="blank">
+                    Johns Hopkins University</a>, researching in the Hopkins Storage Systems Lab. My primary advisor
+                    is <a href="http://hssl.cs.jhu.edu/~randal/" target="blank"> Randal Burns, PhD</a>. I obtained an
+                    MSE in Computer Science (2015) and an MSE in Engineering Management (2013), both from Hopkins.
                 </span></p>
+
+                <p><span>
+                  I love to work on highly-scalable tools (generally in C++ and Python)
+                  for data science and machine learning applications.
+                  I also enjoy studying the effect of advancements in computing
+                  on business and the co-evolution of the two as computing becomes
+                  ubiquitous.
+                </span></p>
+
+                <p><span>
+                  I was awarded both the Hopkins Computer Science Graduate (Paul V. Renoff) Fellowship and the
+                  <a href="https://www.cs.jhu.edu/2014/10/07/cs-student-disa-mhembere-receives-upe-award/#.VSHxe5PF-5I"
+                    target="blank">UPE Special Recognition Award</a> in 2014.
+                </span></p>
+
             </div>
         </div>
     </div>
@@ -214,36 +230,67 @@ permalink: /
         <div class="row">
             <div class="col-lg-12 text-center" id="i18_skills">
                 <div class="navy-line"></div>
-                <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
+                <h1><span data-i18n="skills.my_skills">Selected Skills</span></h1>
             </div>
         </div>
+
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 wow fadeInRight">
+              <p>Parallel & Distributed Computing</p>
+            </div>
+            <div class="col-lg-7 wow fadeInRight">
+                <div class="progress progress-bar-default">
+                    <div style="width: 90%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" role="progressbar" class="progress-bar">
+                        <!-- <span class="sr-only">80% Complete (success)</span> -->
+                    </div>
+                </div>
+            </div>
+          </div>
+          <br>
+
         <div class="row features-block">
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>Python</p>
+              <p>C++</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
-                    <div style="width: 85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
+                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" role="progressbar" class="progress-bar">
                         <!-- <span class="sr-only">85% Complete (success)</span> -->
                     </div>
                 </div>
             </div>
           </div>
           <br>
+
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 wow fadeInRight">
-              <p>HTML</p>
+              <p>Python</p>
             </div>
             <div class="col-lg-7 wow fadeInRight">
                 <div class="progress progress-bar-default">
-                    <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="65" role="progressbar" class="progress-bar">
+                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" role="progressbar" class="progress-bar">
+                        <!-- <span class="sr-only">80% Complete (success)</span> -->
+                    </div>
+                </div>
+            </div>
+          </div>
+          <br>
+
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 wow fadeInRight">
+              <p>Web Dev.</p>
+            </div>
+            <div class="col-lg-7 wow fadeInRight">
+                <div class="progress progress-bar-default">
+                    <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar">
                         <!-- <span class="sr-only">65% Complete (success)</span> -->
                     </div>
                 </div>
             </div>
           </div>
           <br>
+
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 wow fadeInLeft">
               <p>Linux/Shell</p>
@@ -257,26 +304,15 @@ permalink: /
             </div>
           </div>
           <br>
-          <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow fadeInRight">
-              <p>AngularJS</p>
-            </div>
-            <div class="col-lg-7 wow fadeInRight">
-                <div class="progress progress-bar-default">
-                    <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar">
-                        <!-- <span class="sr-only">80% Complete (success)</span> -->
-                    </div>
-                </div>
-            </div>
-          </div>
-          <br>
+
+
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 wow fadeInLeft">
-              <p>Ionic</p>
+              <p>Management</p>
             </div>
             <div class="col-lg-7 wow fadeInLeft">
                 <div class="progress progress-bar-default">
-                    <div style="width: 60%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar">
+                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">
                         <!-- <span class="sr-only">60% Complete (success)</span> -->
                     </div>
                 </div>
