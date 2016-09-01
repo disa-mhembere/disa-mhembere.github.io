@@ -23,7 +23,7 @@ description: "Disa Mhembere Personal Website"
 keywords: "Disa Mhembere,Johns Hopkins University,JHU,computer science,MIT,IBM"
 
 # blog img path
-img_path: '/' # TODO
+#img_path: '/' # TODO
 
 # social link
 linkedin:
@@ -41,7 +41,7 @@ landing:
   experience: 'Selected Experience'
   skills: 'Skills'
   projects: 'Project'
-  blog: 'Blog'
+  #blog: 'Blog'
   link: 'Link'
 
 # my projects
@@ -64,14 +64,14 @@ project:
     img: 'static/img/landing/rsser.png'
 
 # blog index
-index:
-  home: 'Home'
-  python: 'Python'
-  linux: 'Linux'
-  html: 'HTML'
-  database: 'Database'
-  mac: 'Mac'
-  life: 'Life'
+#index:
+#  home: 'Home'
+#  python: 'Python'
+#  linux: 'Linux'
+#  html: 'HTML'
+#  database: 'Database'
+#  mac: 'Mac'
+#  life: 'Life'
 
 # donate
 #donate:
