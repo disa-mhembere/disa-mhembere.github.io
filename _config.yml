@@ -1,0 +1,92 @@
+# Welcome to Jekyll!
+
+# Site settings
+title: personal-website
+
+#baseurl: "/personal-website/"
+baseurl: "/"
+
+# author
+author:
+  name: Floki
+  first_name: Disa
+  last_name: Mhembere
+  email: disa@jhu.edu
+  #facebook_username: facebook_example
+  github_username: disa-mhembere
+  head_img: 'static/img/landing/disa.jpg'
+
+# Website settings
+title: "Disa Mhembere"
+description: "Disa Mhembere Personal Website"
+keywords: "Disa Mhembere,Johns Hopkins University,JHU,computer science,MIT,IBM"
+
+# blog img path
+#img_path: '/' # TODO
+
+# social link
+linkedin:
+  first_name: 'Disa'
+  last_name: 'Mhembere'
+  description: 'Hacker, Entrepreneur, Friend and Scholar'
+  link: 'https://www.linkedin.com/in/disa-mhembere-0446a87'
+  email: 'disa@jhu.edu'
+
+# landing page
+landing:
+  home: 'Home'
+  about: 'About'
+  interests: 'Interests'
+  experience: 'Selected Experience'
+  skills: 'Skills'
+  projects: 'Project'
+  pubs: 'Publications'
+  #blog: 'Blog'
+  link: 'Link'
+
+# my projects
+project:
+  mri:
+    name: 'NeuroData GraphDB'
+    url: 'http://www.openconnecto.me/graph-services/'
+    img: 'static/img/landing/dtmri.png'
+    git: 'https://github.com/neurodata/ndgrutedb'
+  flashgraph:
+    name: 'FlashGraph'
+    url: 'http://flashx.io/'
+    img: 'static/img/landing/graph.png'
+    git: 'https://github.com/zheng-da/FlashX'
+  kmeans:
+    name: 'k||means'
+    url: 'https://github.com/zheng-da/FlashX/tree/disa-graph-attr/flash-graph/matrix'
+    img: 'static/img/landing/pthreads.png'
+    git: 'https://github.com/zheng-da/FlashX/tree/disa-graph-attr/flash-graph/matrix'
+
+# blog index
+#index:
+#  home: 'Home'
+#  python: 'Python'
+#  linux: 'Linux'
+#  html: 'HTML'
+#  database: 'Database'
+#  mac: 'Mac'
+#  life: 'Life'
+
+# donate
+#donate:
+#  wechat: 'static/img/pay/wechat.png'
+#  alipay: 'static/img/pay/alipay.png'
+
+# google analytics
+#ga:
+#  id: UA-73784599-1
+
+# Build settings
+encoding: "utf-8"
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

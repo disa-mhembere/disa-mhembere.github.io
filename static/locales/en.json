@@ -1,0 +1,58 @@
+{
+  "website":{
+    "title": "Jack's blog"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "About",
+    "interests": "Interests",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "pubs": "Publications",
+    "link": "Link"
+  },
+  "about_me":{
+    "about_me": "About Me",
+    "des": ""
+  },
+  "skills":{
+    "my_skills": "Selected Skills"
+  },
+  "projects":{
+    "my_projects": "My Projects",
+    "mri": "",
+    "flashgraph": "Development of optimized vertex-centric, semi-external memory, parallel graph machine learning algorithms. FlashGraph, even in Semi-External Memory mode, is extremely fast and scales to billion-node graphs on a single commodity server!",
+    "kmeans": ""
+  },
+  "experience":{
+    "my_experience": "Selected Experience",
+    "ibm2016": "IBM Research",
+    "ibm2016_des": "Developed MPI based parallel/distributed matrix-sketching-infused machine learning routines, including novel clustering techniques.",
+    "ibm2016_date": "Summer 2016",
+    "ibm2016_job": "Research Intern: Data Analytics Group",
+
+    "jhu": "Johns Hopkins University Research",
+    "jhu_des": "",
+    "jhu_date": "2012 - Present",
+    "jhu_job": "Research Assistant: Storage Systems and parallel computing",
+
+    "teaching": "Johns Hopkins University Teaching",
+    "teaching_des": "",
+    "teaching_date": "2012 - Present",
+    "teaching_job": "Lecturer, Teaching Assistant",
+
+    "ugrad": "Massachusetts Institute of Technology (MIT)",
+    "ugrad_des": "Design and analysis of a Medium Access Control protocol for Ultra-Wide Band (UWB) embedded units in MATLAB then C",
+    "ugrad_date": "Summer 2009",
+    "ugrad_job": "Developer intern: Lab. for Information and Decision Systems"
+  },
+  "blog":{
+    "my_blog": "My Blog"
+  },
+  "link":{
+    "link": "Link",
+    "view": "views"
+  }
+
+}
