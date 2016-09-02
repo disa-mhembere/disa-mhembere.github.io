@@ -1,11 +1,10 @@
 # Welcome to Jekyll!
 
 # Site settings
-title: newsite
+title: personal-website
 
-baseurl: "/newsite/"
-# url: "http://disa-mhembere.github.io/newsite/"
-# url: "http://127.0.0.1:4000"
+#baseurl: "/personal-website/"
+baseurl: "/"
 
 # author
 author:
