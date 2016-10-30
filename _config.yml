@@ -58,9 +58,9 @@ project:
     git: 'https://github.com/zheng-da/FlashX'
   kmeans:
     name: 'k||means'
-    url: 'https://github.com/zheng-da/FlashX/tree/disa-graph-attr/flash-graph/matrix'
+    url: 'https://github.com/disa-mhembere/k-par-means'
     img: 'static/img/landing/pthreads.png'
-    git: 'https://github.com/zheng-da/FlashX/tree/disa-graph-attr/flash-graph/matrix'
+    git: 'https://github.com/disa-mhembere/k-par-means'
 
 # blog index
 #index:
