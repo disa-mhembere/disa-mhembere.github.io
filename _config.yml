@@ -55,12 +55,12 @@ project:
     name: 'FlashGraph'
     url: 'http://flashx.io/'
     img: 'static/img/landing/graph.png'
-    git: 'https://github.com/zheng-da/FlashX'
+    git: 'https://github.com/flashxio/FlashX'
   kmeans:
-    name: 'k||means'
-    url: 'https://github.com/disa-mhembere/k-par-means'
+    name: 'knor'
+    url: 'https://github.com/disa-mhembere/knor/tree/dev'
     img: 'static/img/landing/pthreads.png'
-    git: 'https://github.com/disa-mhembere/k-par-means'
+    git: 'https://github.com/disa-mhembere/knor/tree/dev'
 
 # blog index
 #index:
