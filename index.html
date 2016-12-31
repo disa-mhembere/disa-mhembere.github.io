@@ -137,14 +137,14 @@ permalink: /
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><span>
+                <p><span style="font-size: medium !important;">
                     I am a PhD student in Computer Science at the <a href="http://www.cs.jhu.edu/" target="blank">
                     Johns Hopkins University</a>, researching in the Hopkins Storage Systems Lab. My primary advisor
                     is <a href="http://hssl.cs.jhu.edu/~randal/" target="blank"> Randal Burns, PhD</a>. I obtained an
                     MSE in Computer Science (2015) and an MSE in Engineering Management (2013), both from Hopkins.
                 </span></p>
 
-                <p><span>
+                <p><span style="font-size: medium !important;">
                   I was awarded both the Hopkins Computer Science Graduate (Paul V. Renoff) Fellowship and the
                   <a href="https://www.cs.jhu.edu/2014/10/07/cs-student-disa-mhembere-receives-upe-award/#.VSHxe5PF-5I"
                     target="blank">UPE Special Recognition Award</a> in 2014.
@@ -162,17 +162,17 @@ permalink: /
 
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><span>
+                <p><span style="font-size: medium !important;">
                   I love to work on highly-scalable tools (generally in C++ and Python)
                   for data science and machine learning applications.
                 </span></p>
 
-                <p><span>
+                <p><span style="font-size: medium !important;">
                   I enjoy backend web-service building and strongly believe in the web-service
                   paradigm for user interaction with tools.
                 </span></p>
 
-                <p><span>
+                <p><span style="font-size: medium !important;">
                   I also enjoy studying the effect of advancements in computing
                   on business and their co-evolution as computing becomes
                   ubiquitous in all industries.
@@ -396,7 +396,7 @@ permalink: /
                 <div class="team-member">
                     <img src="{{ site.project.mri.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                     <h4><a href="{{ site.project.mri.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.mri.name }}</a></h4>
-                    <p><span data-i18n="projects.mri"> </span> <!-- DM: Intentional blank span -->
+                    <p style="font-size: medium !important;"><span data-i18n="projects.mri" > </span> <!-- DM: Intentional blank span -->
                         Development and maintainance of back and front-end web-services
                         that leverage <a href="https://www.djangoproject.com/" target="blank"> Django</a>.
                         The project sits at the intersection of big-data and computational neuroscience as we deliver
@@ -427,7 +427,7 @@ permalink: /
                 <div class="team-member">
                     <img src="{{ site.project.flashgraph.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                     <h4><a href="{{ site.project.flashgraph.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.flashgraph.name }}</a></h4>
-                    <p><span data-i18n="projects.flashgraph">
+                    <p style="font-size: medium !important;"><span data-i18n="projects.flashgraph">
                         Development of vertex-centric, semi-external memory, parallel machine learning algorithms on graphs.
                         FlashGraph, even in semi-external memory mode, is extremely fast and scales to billion-node graphs on a single commodity server!
                     </span>
@@ -460,7 +460,7 @@ permalink: /
                 <div class="team-member">
                     <img src="{{ site.project.kmeans.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                     <h4><a href="{{ site.project.kmeans.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.kmeans.name }}</a></h4>
-                    <p><span data-i18n="projects.kmeans"></span> <!-- DM: Intentional blank span -->
+                    <p style="font-size: medium !important;"><span data-i18n="projects.kmeans"></span> <!-- DM: Intentional blank span -->
                         Development of a parallelized, NUMA-architecture aware k-means. We utilize methods such as
                         informed thread binding, NUMA-aware task scheduling and other memory access latency reduction techniques.
                         We achieve a 10-100 X speedup when compared with
@@ -506,21 +506,21 @@ permalink: /
             <p>
                 <ol>
                     <li>
-                        <i>NUMA-optimized In-memory and Semi-external-memory Parameterized Clustering</i> <b
+                        <i>knor: A NUMA-optimized In-memory, Distributed and Semi-external-memory k-means Library</i> <b
                         class=me>Disa Mhembere</b>, Da Zheng, Carey Priebe, Joshua T. Vogelstein, and Randal Burns.
-                    <i>Under Review:</i> 2016.
+                    <i>Under Review:</i> 2017.
                     </li>
 
                     <li>
                   <i>FlashMatrix: Parallel, Scalable Data Analysis with Generalized Matrix Operations using Commodity SSDs</i>
                   Da Zheng, <b class=me>Disa Mhembere</b>, Joshua T. Vogelstein, Carey E. Priebe, and Randal Burns.
-                  <i>Under Review:</i> 2016.
+                  <i>Under Review:</i> 2017.
                     </li>
 
                     <li>
                   <i>Semi-External Memory Sparse Matrix Multiplication on Billion-node Graphs in a Multicore Architecture</i>
                   Da Zheng, <b class=me>Disa Mhembere</b>, Vince Lyzinski, Joshua Vogelstein, Carey E. Priebe, and Randal Burns.
-                  <i>Under Review:</i> 2016.
+                  <i>IEEE Transactions on Parallel and Distributed Systems</i> 2017.
                     </li>
 
                   <li>
@@ -548,7 +548,7 @@ permalink: /
                 <ol>
                 <li>
                 <i>Spectral Clustering For Billion-Node Graphs</i> Da Zheng, <b class=me>Disa Mhembere</b>, Youngser Park, Joshua T. Vogelstein,
-                Carey E. Priebe, Randal Burns. <i>Under Review:</i> SIAM Workshop on Network Science 2016.
+                Carey E. Priebe, Randal Burns. SIAM Workshop on Network Science 2016.
                 </li>
 
                 <li>
@@ -613,10 +613,10 @@ permalink: /
         </div>
         <div class="row">
             <div class="col-sm-4 col-sm-offset-4">
-                <div class="team-member wow zoomIn">
+                <div class="team-member wow zoomIn" style="font-size: medium !important;">
                     <h4><span class="navy">{{ site.linkedin.first_name }}</span>
                         {{ site.linkedin.last_name }}</h4>
-                    <p>
+                    <p style="font-size: medium !important;">
                         {{ site.linkedin.description }}
                     </p>
                     <ul class="list-inline social-icon">
