@@ -61,7 +61,7 @@ project:
   kmeans:
     name: 'knor: Parallel, Semi-External and Distributed Memory k-means'
     url: 'https://github.com/disa-mhembere/knor'
-    img: 'static/img/landing/pthreads.png'
+    img: 'static/img/landing/knor.png'
     git: 'https://github.com/disa-mhembere/knor'
   blci:
     name: 'Brain-Lab CI'
