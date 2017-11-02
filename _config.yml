@@ -65,9 +65,9 @@ project:
     git: 'https://github.com/disa-mhembere/knor'
   blci:
     name: 'Brain-Lab CI'
-    url: 'https://neurodata.github.io/blci'
+    url: 'https://neurodata-arxiv.github.io/blci'
     img: 'static/img/landing/blci.png'
-    git: 'https://github.com/neurodata/blci'
+    git: 'https://github.com/neurodata-arxiv/blci'
 
 # blog index
 #index:
