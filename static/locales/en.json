@@ -27,6 +27,12 @@
   },
   "experience":{
     "my_experience": "Selected Experience",
+
+    "kyndi2017": "Kyndi Inc.",
+    "kyndi2017_des": "Developing C++ and Python framework for Cognitive Memory explainable AI graph engine and database.",
+    "kyndi2017_date": "2017 - Present",
+    "kyndi2017_job": "Software Engineer: Aritificial Intelligence Cognitive Memory group",
+
     "ibm2016": "IBM Research",
     "ibm2016_des": "Developed MPI based parallel/distributed matrix-sketching-infused machine learning routines, including novel clustering techniques.",
     "ibm2016_date": "Summer 2016",
