@@ -9,6 +9,5 @@ pages:
     - public
   only:
   - master
-
-notifications:
-  email: false
+#notifications:
+  #email: false
