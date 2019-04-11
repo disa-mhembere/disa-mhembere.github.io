@@ -8,13 +8,13 @@ baseurl: "/"
 
 # author
 author:
-  name: Floki
-  first_name: Disa
-  last_name: Mhembere
-  email: disa@jhu.edu
-  #facebook_username: facebook_example
-  github_username: disa-mhembere
-  head_img: 'static/img/landing/disa.jpg'
+    name: Disa 
+    first_name: Disa
+    last_name: Mhembere
+    email: disa@jhu.edu
+    #facebook_username: facebook_example
+    github_username: disa-mhembere
+    head_img: 'static/img/landing/disa.jpg'
 
 # Website settings
 title: "Disa Mhembere"
@@ -26,48 +26,53 @@ keywords: "Disa Mhembere,Johns Hopkins University,JHU,computer science,MIT,IBM,K
 
 # social link
 linkedin:
-  first_name: 'Disa'
-  last_name: 'Mhembere'
-  description: 'Hacker, Entrepreneur, Friend and Scholar'
-  link: 'https://www.linkedin.com/in/disa-mhembere-0446a87'
-  email: 'disa@jhu.edu'
+    first_name: 'Disa'
+    last_name: 'Mhembere'
+    description: 'Hacker, Scholar, Entrepreneur and Friend'
+    link: 'https://www.linkedin.com/in/disa-mhembere-0446a87'
+    email: 'disa@jhu.edu'
 
 # landing page
 landing:
-  home: 'Home'
-  about: 'About'
-  interests: 'Interests'
-  experience: 'Selected Experience'
-  skills: 'Skills'
-  projects: 'Project'
-  pubs: 'Publications'
-  teaching: 'Teaching'
-  tennis: 'Tennis'
-  #blog: 'Blog'
-  link: 'Link'
+    home: 'Home'
+    about: 'About'
+    interests: 'Interests'
+    experience: 'Selected Experience'
+    skills: 'Skills'
+    projects: 'Project'
+    pubs: 'Publications'
+    teaching: 'Teaching'
+    tennis: 'Tennis'
+    #blog: 'Blog'
+    link: 'Link'
 
 # my projects
 project:
-  mri:
-    name: 'NeuroData GraphDB'
-    url: 'http://www.openconnecto.me/graph-services/'
-    img: 'static/img/landing/dtmri.png'
-    git: 'https://github.com/neurodata/ndgrutedb'
-  flashgraph:
-    name: 'FlashGraph Algorithms'
-    url: 'http://flashx.io/'
-    img: 'static/img/landing/graph.png'
-    git: 'https://github.com/flashxio/FlashX'
-  kmeans:
-    name: 'knor: Parallel, Semi-External and Distributed Memory k-means'
-    url: 'https://github.com/disa-mhembere/knor'
-    img: 'static/img/landing/knor.png'
-    git: 'https://github.com/disa-mhembere/knor'
-  blci:
-    name: 'Brain-Lab CI'
-    url: 'https://neurodata-arxiv.github.io/blci'
-    img: 'static/img/landing/blci.png'
-    git: 'https://github.com/neurodata-arxiv/blci'
+    mri:
+        name: 'NeuroData Graph Database'
+        url: 'https://neurodata.io/project/connectomes/'
+        img: 'static/img/landing/dtmri.png'
+        git: 'https://github.com/neurodata/ndgrutedb'
+    flashgraph:
+        name: 'Graphyti: Semi-external memory graph applications on FlashGraph'
+        url: 'http://flashx.io/'
+        img: 'static/img/landing/graph.png'
+        git: 'https://github.com/flashxio/FlashX'
+    kmeans:
+        name: 'clusterNOR: Parallel, Semi-external and Distributed Memory clustering framework'
+        url: 'https://github.com/disa-mhembere/knor'
+        img: 'static/img/landing/knor.png'
+        git: 'https://github.com/disa-mhembere/knor'
+    blci:
+        name: 'Brain-Lab CI'
+        url: 'https://neurodata-arxiv.github.io/blci'
+        img: 'static/img/landing/blci.png'
+        git: 'https://github.com/neurodata-arxiv/blci'
+    monya:
+        name: 'monya: A fast, scalable decision forests building and querying framework'
+        url: 'https://github.com/disa-mhembere/monya'
+        img: 'static/img/landing/monya.png'
+        git: 'https://github.com/disa-mhembere/monya'
 
 # blog index
 #index:
@@ -95,5 +100,5 @@ encoding: "utf-8"
 highlighter: rouge
 markdown: kramdown
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+    input: GFM
+    syntax_highlighter: rouge

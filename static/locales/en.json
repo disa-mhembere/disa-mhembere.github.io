@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": ""
   },
   "nav":{
     "home": "Home",
@@ -29,8 +29,8 @@
     "my_experience": "Selected Experience",
 
     "kyndi2017": "Kyndi Inc.",
-    "kyndi2017_des": "Developing C++ and Python framework for Cognitive Memory explainable AI graph engine and database.",
-    "kyndi2017_date": "2017 - Present",
+    "kyndi2017_des": "Developing a C++, Java, and Python framework for the Cognitive Memory explainable AI graph engine and database.",
+    "kyndi_date": "2017 - Present",
     "kyndi2017_job": "Software Engineer II: Aritificial Intelligence Cognitive Memory group",
 
     "ibm2016": "IBM Research",
@@ -41,7 +41,7 @@
     "jhu": "Johns Hopkins University Research",
     "jhu_des": "",
     "jhu_date": "2012 - Present",
-    "jhu_job": "Research Assistant: Storage Systems and parallel computing",
+    "jhu_job": "Research Assistant: Institute for Data Intensive Engineering and Science",
 
     "teaching": "Johns Hopkins University Teaching",
     "teaching_des": "",
