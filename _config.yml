@@ -10,7 +10,7 @@ baseurl: "/"
 author:
     name: Disa
     first_name: Disa
-    last_name: Mhembere
+    last_name: Mhembere, PhD
     email: disa@jhu.edu
     #facebook_username: facebook_example
     github_username: disa-mhembere
@@ -61,7 +61,7 @@ project:
     kmeans:
         name: 'clusterNOR: Parallel, Semi-external and Distributed Memory clustering framework'
         url: 'https://github.com/disa-mhembere/knor'
-        img: 'static/img/landing/clusternor.png'
+        img: 'static/img/landing/knor.png'
         git: 'https://github.com/disa-mhembere/knor'
     blci:
         name: 'Brain-Lab CI'
