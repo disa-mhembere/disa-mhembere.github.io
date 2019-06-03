@@ -11,7 +11,7 @@ author:
     name: Disa
     first_name: Disa
     last_name: Mhembere, PhD
-    email: disa@jhu.edu
+    email: disa@cs.jhu.edu
     #facebook_username: facebook_example
     github_username: disa-mhembere
     head_img: 'static/img/landing/disa.jpg'
@@ -28,9 +28,9 @@ keywords: "Disa Mhembere,Johns Hopkins University,JHU,computer science,MIT,IBM,K
 linkedin:
     first_name: 'Disa'
     last_name: 'Mhembere'
-    description: 'Ethical Hacker, Scholar, Entrepreneur and Friend'
+    description: 'Husband, Friend and Scholar'
     link: 'https://www.linkedin.com/in/disa-mhembere-0446a87'
-    email: 'disa@jhu.edu'
+    email: 'disa@cs.jhu.edu'
 
 # landing page
 landing:
