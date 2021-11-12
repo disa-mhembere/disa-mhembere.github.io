@@ -1,0 +1,104 @@
+# Welcome to Jekyll!
+
+# Site settings
+title: personal-website
+
+#baseurl: "/personal-website/"
+baseurl: "/"
+
+# author
+author:
+    name: Disa
+    first_name: Disa
+    last_name: Mhembere, PhD
+    email: disa@cs.jhu.edu
+    #facebook_username: facebook_example
+    github_username: disa-mhembere
+    head_img: 'static/img/landing/disa.jpg'
+
+# Website settings
+title: "Disa Mhembere"
+description: "Disa Mhembere Personal Website"
+keywords: "Disa Mhembere,Johns Hopkins University,JHU,computer science,MIT,IBM,Kyndi,Microsoft"
+
+# blog img path
+#img_path: '/' # TODO
+
+# social link
+linkedin:
+    first_name: 'Disa'
+    last_name: 'Mhembere'
+    description: 'Husband, Technologist and Scholar'
+    link: 'https://www.linkedin.com/in/disa-mhembere-0446a87'
+    email: 'disa@cs.jhu.edu'
+
+# landing page
+landing:
+    home: 'Home'
+    about: 'About'
+    interests: 'Interests'
+    experience: 'Selected Experience'
+    skills: 'Skills'
+    projects: 'Project'
+    pubs: 'Publications'
+    teaching: 'Teaching'
+    tennis: 'Tennis'
+    #blog: 'Blog'
+    link: 'Link'
+
+# my projects
+project:
+    mri:
+        name: 'NeuroData Graph Database'
+        url: 'https://neurodata.io/project/connectomes/'
+        img: 'static/img/landing/dtmri.png'
+        git: 'https://github.com/neurodata/ndgrutedb'
+    flashgraph:
+        name: 'Graphyti: Semi-external memory graph applications on FlashGraph'
+        url: 'http://flashx.io/'
+        img: 'static/img/landing/graph.png'
+        git: 'https://github.com/flashxio/FlashX'
+    kmeans:
+        name: 'clusterNOR: Parallel, Semi-external and Distributed Memory clustering framework'
+        url: 'https://github.com/disa-mhembere/knor'
+        img: 'static/img/landing/knor.png'
+        git: 'https://github.com/disa-mhembere/knor'
+    blci:
+        name: 'Brain-Lab CI'
+        url: 'https://neurodata-arxiv.github.io/blci'
+        img: 'static/img/landing/blci.png'
+        git: 'https://github.com/neurodata-arxiv/blci'
+    monya:
+        name: 'monya: A fast, scalable decision forests building and querying framework'
+        url: 'https://github.com/disa-mhembere/monya'
+        img: 'static/img/landing/monya.png'
+        git: 'https://github.com/disa-mhembere/monya'
+
+# blog index
+#index:
+#  home: 'Home'
+#  python: 'Python'
+#  linux: 'Linux'
+#  html: 'HTML'
+#  database: 'Database'
+#  mac: 'Mac'
+#  life: 'Life'
+
+# donate
+#donate:
+#  wechat: 'static/img/pay/wechat.png'
+#  alipay: 'static/img/pay/alipay.png'
+
+# google analytics
+#ga:
+#  id: UA-73784599-1
+
+# Build settings
+encoding: "utf-8"
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge

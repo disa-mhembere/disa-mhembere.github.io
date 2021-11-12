@@ -1,0 +1,964 @@
+---
+layout: blog
+title: index
+permalink: /
+---
+<div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+                        <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home">{{ site.landing.home }}</span></a></li>
+                        <li><a class="page-scroll" href="#about_me"><span data-i18n="nav.about_me">{{ site.landing.about }}</span></a></li>
+                        <!--<li><a class="page-scroll" href="#interests"><span data-i18n="nav.interests">{{ site.landing.interests }}</span></a></li> -->
+                        <li><a class="page-scroll" href="#experience"><span data-i18n="nav.experience">{{ site.landing.experience }}</span></a></li>
+                        <li><a class="page-scroll" href="#skills"><span data-i18n="nav.skills">{{ site.landing.skills }}</span></a></li>
+                        <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">{{ site.landing.projects }}</span></a></li>
+                        <li><a class="page-scroll" href="#teaching"><span data-i18n="nav.blog">{{ site.landing.teaching }}</span></a></li>
+                        <li><a class="page-scroll" href="#tennis"><span data-i18n="nav.blog">{{ site.landing.tennis }}</span></a></li>
+                        <li><a class="page-scroll" href="#pubs"><span data-i18n="nav.pubs">{{ site.landing.pubs }}</span></a></li>
+                        <li><a class="page-scroll" href="#link"><span data-i18n="nav.link">{{ site.landing.link }}</span></a></li>
+                        <li>
+                            <a class="btn btn-sm set_en"><img src="{{"static/img/flags/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
+                        </li>
+                        <!-- How to add another language -->
+                        <!--<li>
+                            <a class="btn btn-sm set_cn"><img src="{{"static/img/flags/China.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
+                        </li> -->
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</div>
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+        <li data-target="#inSlider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back three"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<section id="about_me" class="features">
+    <div class="container" id="i18_about_me">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="about_me.about_me">About Me</span></h1>
+                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+            </div>
+        </div>
+        <div class="row">
+            <!-- python -->
+            <div class="col-xs-2 wow fadeInLeft">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-python"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- linux -->
+            <div class="col-xs-2 wow fadeInLeft">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-shell"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- avatar -->
+            <div class="col-xs-4">
+                <div class="team-member wow zoomIn">
+                    <img src="{{ site.author.head_img | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
+                    <h4><span class="navy">{{ site.author.first_name }}</span>
+                        {{ site.author.last_name }}</h4>
+                    <ul class="list-inline social-icon">
+                        <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a>
+                        </li>
+                        <li><a href="{{ site.linkedin.link }}" target="blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- html -->
+            <div class="col-xs-2 wow fadeInRight">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-cplusplus"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- docker -->
+            <div class="col-xs-2 wow fadeInRight">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-git"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p><span style="font-size: medium !important;">
+                    I received my PhD in Computer Science from the <a href="http://www.cs.jhu.edu/" target="blank">
+                    Johns Hopkins University</a> in 2019. I was part of the
+                Institute for Data Intensive Engineering and Science. My
+                dissertation focussed on reimagining infrastructure for
+                large-scale semi-external memory graph analysis and
+                unsupervised clustering. My primary advisor
+                was <a href="https://randalburns.github.io" target="blank"> Randal Burns, PhD</a>.
+                I obtained my Masters in Computer Science in 2015 and Masters
+                in Engineering Management in 2013, both from
+                <a href="http://www.cs.jhu.edu/" target="blank"> Hopkins</a>. I
+                earned my Bachelors in Electrical and Computer Engineering
+                from Morgan State University in 2010.
+                </span></p>
+
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span>Awards</span></h1>
+            </div>
+        </div>
+
+                <p><span style="font-size: medium !important;">
+                In 2017 I received the UPE Academic Achievement award and the
+                Best Presentation award at High-Performance Parallel and
+                Distributed Computing (HPDC) Conference. <br>
+
+                In 2014 I was awarded the Hopkins Computer Science Graduate
+                (Paul V. Renoff) Fellowship, and the
+                  <a href="https://www.cs.jhu.edu/2014/10/07/cs-student-disa-mhembere-receives-upe-award/#.VSHxe5PF-5I"
+                    target="blank">UPE Special Recognition award</a>.
+                </span></p>
+            </div>
+        </div>
+
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span>Interests</span></h1>
+                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p><span style="font-size: medium !important;">
+                  I love to work on highly-scalable tools, frameworks, libraries (generally in C++ and Python)
+                  for graph analytics and artificial intelligence applications.
+                </span></p>
+
+                <p><span style="font-size: medium !important;">
+                  I enjoy backend web-service infrastructure development and strongly believe in
+                  SaaS via RESTful web-services as a scalable service delivery strategy.
+                </span></p>
+
+                <p><span style="font-size: medium !important;">
+                  I also enjoy studying the effect of advancements in computing
+                  on business and their co-evolution as AI and high-scale computing becomes
+                  ubiquitous in industry and academia alike.
+                </span></p>
+
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section id="experience" class="timeline features gray-section">
+    <div class="container" id="i18_experience">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="experience.my_experience">Selected Experience</span></h1>
+            </div>
+        </div>
+        <div class="row features-block">
+
+            <div class="col-lg-12">
+                <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+                    <!-- nextcode -->
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+                        <!-- Microsoft -->
+                        <div class="vertical-timeline-content wow rotateInUpRight">
+                            <h2><span data-i18n="experience.msft2021"></span></h2>
+                            <p><span data-i18n="experience.msft2021_des"></span></p>
+                            <span class="vertical-date"><span data-i18n="experience.msft_date"></span><br/>
+                            <small><span
+                                    data-i18n="experience.msft2021_job"></span></small> </span>
+                        </div>
+                    </div>
+
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+                        <!-- Kyndi -->
+                        <div class="vertical-timeline-content wow rotateInUpRight">
+                            <h2><span data-i18n="experience.kyndi2017"></span></h2>
+                            <p><span data-i18n="experience.kyndi2017_des"></span></p>
+                            <span class="vertical-date"><span data-i18n="experience.kyndi_date"></span><br/>
+                            <small><span
+                                    data-i18n="experience.kyndi2017_job"></span></small> </span>
+                        </div>
+                    </div>
+
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                            <i class="fa fa-cloud"></i>
+                        </div>
+
+
+                        <!-- IBM -->
+                        <div class="vertical-timeline-content wow rotateInUpRight">
+                            <h2><span data-i18n="experience.ibm2016"></span></h2>
+                            <p><span data-i18n="experience.ibm2016_des"></span></p>
+                            <span class="vertical-date"><span data-i18n="experience.ibm2016_date"></span><br/>
+                            <small><span data-i18n="experience.ibm2016_job"></span></small> </span>
+                        </div>
+                    </div>
+
+                    <!-- Research Assistant -->
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                            <i class="fa fa-university"></i>
+                        </div>
+                        <div class="vertical-timeline-content wow rotateInUpLeft">
+                            <h2><span data-i18n="experience.jhu"></span></h2>
+                            <p><span data-i18n="experience.jhu_des">   </span> <!-- DM: Description moved out of span -->
+                            <ul>
+                                <li>
+                                    Parallel, semi-external and distributed memory community detection for
+                                        <a href="https://github.com/neurodata/knorR" target="blank"> clusterNOR.</a>
+                                </li>
+                                <li>
+                                    Semi-external memory vertex-centric library development for <a href="http://flashx.io" target="blank"> FlashGraph.</a>
+                                </li>
+                                <li>
+                                    Backend infrastructure and RESTful services for <a href="https://neurodata.io/project/connectomes/" target="blank">
+                            Neurodata's MRI portal.</a>
+                                </li>
+                            </ul>
+                            </p>
+                            <span class="vertical-date"><span data-i18n="experience.jhu_date"> </span><br/> <small><span data-i18n="experience.jhu_job"></span></small> </span>
+                        </div>
+                    </div>
+
+                    <!-- Teaching -->
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                        <div class="vertical-timeline-content wow rotateInUpRight">
+                            <h2><span data-i18n="experience.teaching"></span></h2>
+                            <p><span data-i18n="experience.teaching_des">    </span> <!-- DM: Description moved out of span -->
+                            <ul>
+                            <li>
+                                Lecturer <a href="http://msem.engineering.jhu.edu/">MSEM
+                                </a>: Create, grade assignments and exams in Excel and Python for
+                                <a
+                                    href="https://disa-mhembere.github.io/MSEM-Excel-Python/"> bootcamp</a> and
+                                <a href="http://disa-mhembere.github.io/Emerging-Technologies/"> seminar</a>.
+                            </li>
+                            <li>
+                                Teaching Assistant: Create assignments, grade and offer office hours for<a
+                                    href="http://parallel.cs.jhu.edu/"> Parallel Programming</a>.
+                            </li>
+                            </ul>
+                            </p>
+
+                            <span class="vertical-date"><span data-i18n="experience.teaching_date"></span><br/>
+                                <small><span data-i18n="experience.teaching_job"></span></small> </span>
+                        </div>
+                    </div>
+
+                    <!-- MIT -->
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                            <i class="fa fa-wifi"></i>
+                        </div>
+                        <div class="vertical-timeline-content wow rotateInUpLeft">
+                            <h2><span data-i18n="experience.ugrad"></span></h2>
+                            <p><span data-i18n="experience.ugrad_des"></span></p>
+                            <span class="vertical-date"><span data-i18n="experience.ugrad_date"></span><br/> <small>
+                            <span data-i18n="experience.ugrad_job">
+                            </span></small> </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="team features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center" id="i18_skills">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="skills.my_skills">Selected Skills</span></h1>
+            </div>
+        </div>
+
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 wow fadeInRight">
+              <p>Parallel & Distributed Computing</p>
+            </div>
+            <div class="col-lg-7 wow fadeInRight">
+                <div class="progress progress-bar-default">
+                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" role="progressbar" class="progress-bar">
+                        <!-- <span class="sr-only">80% Complete (success)</span> -->
+                    </div>
+                </div>
+            </div>
+          </div>
+          <br>
+
+        <div class="row features-block">
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>C++</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" role="progressbar" class="progress-bar">
+                        <!-- <span class="sr-only">85% Complete (success)</span> -->
+                    </div>
+                </div>
+            </div>
+          </div>
+          <br>
+
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 wow fadeInRight">
+              <p>Python</p>
+            </div>
+            <div class="col-lg-7 wow fadeInRight">
+                <div class="progress progress-bar-default">
+                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" role="progressbar" class="progress-bar">
+                        <!-- <span class="sr-only">80% Complete (success)</span> -->
+                    </div>
+                </div>
+            </div>
+          </div>
+          <br>
+
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 wow fadeInRight">
+              <p>Backend RESTful Dev.</p>
+            </div>
+            <div class="col-lg-7 wow fadeInRight">
+                <div class="progress progress-bar-default">
+                    <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar">
+                        <!-- <span class="sr-only">65% Complete (success)</span> -->
+                    </div>
+                </div>
+            </div>
+          </div>
+          <br>
+
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 wow fadeInLeft">
+              <p>Management</p>
+            </div>
+            <div class="col-lg-7 wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">
+                        <!-- <span class="sr-only">60% Complete (success)</span> -->
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<section id="project" class="project gray-section features">
+    <div class="container" id="i18_projects">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="{{ site.project.mri.img | prepend: site.baseurl }}" class="img-responsive img-small" alt="">
+                    <h4><a href="{{ site.project.mri.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.mri.name }}</a></h4>
+                    <p style="font-size: medium !important;"><span data-i18n="projects.mri" > </span> <!-- DM: Intentional blank span -->
+                        Development and maintenance of back and front-end web-services
+                        that leverage <a href="https://www.djangoproject.com/" target="blank"> Django</a>.
+                        The project sits at the intersection of big-data and computational neuroscience as we deliver
+                        connectome building and exploratory graph analysis tools.
+                    </p>
+                    <ul class="list-inline">
+                        <li>
+                            <a class="github-button" href="{{ site.project.mri.git }}"
+                            data-icon="octicon-star"
+                            data-count-href="{{ site.project.mri.git | append: '/stargazers' }}"
+                            data-count-api="{{ site.project.mri.git | prepend: '/repos' | append: '#stargazers_count' }}"
+                            data-count-aria-label="# stargazers on GitHub"
+                            aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
+                        </li>
+                        <li>
+                            <a class="github-button" href="{{ site.project.mri.git }}"
+                            data-icon="octicon-fork"
+                            data-count-href="{{ site.project.mri.git | append: '/forks' }}"
+                            data-count-api="{{ site.project.mri.git | prepend: '/repos' | append: '#forks_count' }}"
+                            data-count-aria-label="# forks on GitHub"
+                            aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-6 wow fadeInRight">
+                <div class="team-member">
+                    <img src="{{ site.project.flashgraph.img | prepend: site.baseurl }}" class="img-responsive img-small" alt="">
+                    <h4><a href="{{ site.project.flashgraph.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.flashgraph.name }}</a></h4>
+                    <p style="font-size: medium !important;"><span data-i18n="projects.flashgraph">
+                        Development of a vertex-centric, semi-external memory, parallel graph analytics library.
+                        Graphyti is developed on FlashGraph and is a high level Python wrapper over C++. Graphyti,
+                        inherits its performance characteristics from FlashGraph and can outperform distributed frameworks on
+                        billion-node graphs on a single commodity server!
+                    </span>
+                    </p>
+                    <ul class="list-inline">
+                        <li>
+                            <a class="github-button" href="{{ site.project.flashgraph.git }}"
+                            data-icon="octicon-star"
+                            data-count-href="{{ site.project.flashgraph.git | append: '/stargazers' }}"
+                            data-count-api="{{ site.project.flashgraph.git | prepend: '/repos' | append: '#stargazers_count' }}"
+                            data-count-aria-label="# stargazers on GitHub"
+                            aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
+                        </li>
+                        <li>
+                            <a class="github-button" href="{{ site.project.flashgraph.git }}"
+                            data-icon="octicon-fork"
+                            data-count-href="{{ site.project.flashgraph.git | append: '/forks' }}"
+                            data-count-api="{{ site.project.flashgraph.git | prepend: '/repos' | append: '#forks_count' }}"
+                            data-count-aria-label="# forks on GitHub"
+                            aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-6 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="{{ site.project.kmeans.img | prepend: site.baseurl }}" class="img-responsive" alt="">
+                    <h4><a href="{{ site.project.kmeans.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.kmeans.name }}</a></h4>
+                    <p style="font-size: medium !important;"><span data-i18n="projects.kmeans"></span> <!-- DM: Intentional blank span -->
+                        Development of a parallelized, NUMA-architecture aware clustering framework. We utilize
+                        fine-grained I/O manipulation, informed thread-binding, NUMA-aware task scheduling
+                        and other memory access latency reduction techniques. We achieve a 10-100 X speedup when compared with
+                        commercial products such as Spark's MLlib, Turi (Formerly Dato, GraphLab)
+                        and H<sup>2</sup>O for k-means, and several factors speedup for other algorithms.
+                    </p>
+                    <ul class="list-inline">
+                        <li>
+                            <a class="github-button" href="{{ site.project.kmeans.git }}"
+                            data-icon="octicon-star"
+                            data-count-href="{{ site.project.kmeans.git | append: '/stargazers' }}"
+                            data-count-api="{{ site.project.kmeans.git | prepend: '/repos' | append: '#stargazers_count' }}"
+                            data-count-aria-label="# stargazers on GitHub"
+                            aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
+                        </li>
+                        <li>
+                            <a class="github-button" href="{{ site.project.kmeans.git }}"
+                            data-icon="octicon-fork"
+                            data-count-href="{{ site.project.kmeans.git | append: '/forks' }}"
+                            data-count-api="{{ site.project.kmeans.git | prepend: '/repos' | append: '#forks_count' }}"
+                            data-count-aria-label="# forks on GitHub"
+                            aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-6 wow fadeInRight">
+                <div class="team-member">
+                    <img src="{{ site.project.monya.img | prepend: site.baseurl }}" class="img-responsive img-small" alt="">
+                        <h4><a href="{{ site.project.monya.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.monya.name }}</a></h4>
+                        <p style="font-size: medium !important;"><span data-i18n="projects.monya">
+                            Monya provides a unified programming interface for the creation and
+                            querying for forests of trees. Monya parallelizes tree construction and
+                            querying and contains scheduling, caching and memory (de)allocation
+                            optimizations.
+                        </span>
+                        </p>
+                        <ul class="list-inline">
+                            <li>
+                                <a class="github-button" href="{{ site.project.monya.git }}"
+                                    data-icon="octicon-star"
+                                    data-count-href="{{ site.project.monya.git | append: '/stargazers' }}"
+                                    data-count-api="{{ site.project.monya.git | prepend: '/repos' | append: '#stargazers_count' }}"
+                                    data-count-aria-label="# stargazers on GitHub"
+                                    aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
+                            </li>
+                            <li>
+                                <a class="github-button" href="{{ site.project.monya.git }}"
+                                    data-icon="octicon-fork"
+                                    data-count-href="{{ site.project.monya.git | append: '/forks' }}"
+                                    data-count-api="{{ site.project.monya.git | prepend: '/repos' | append: '#forks_count' }}"
+                                    data-count-aria-label="# forks on GitHub"
+                                    aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
+                            </li>
+                        </ul>
+                        </div>
+            </div>
+
+            <!--
+            <div class="col-sm-6 wow fadeInRight">
+                <div class="team-member">
+                    <img src="{{ site.project.blci.img | prepend: site.baseurl }}" class="img-responsive img-small" alt="">
+                    <h4><a href="{{ site.project.blci.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.blci.name }}</a></h4>
+                    <p style="font-size: medium !important;"><span data-i18n="projects.blci">
+                        BrainLab CI (BLCI), a continuous integration environment for collaborative,
+                        community experiments with data-quality controls and full provenance. Users
+                        can run code within a pipeline which may have code or data dependenciesds. All
+                        side effects of the new code are propagated to both code and data artifacts
+                        within a repo.
+                    </span>
+                    </p>
+                    <ul class="list-inline">
+                        <li>
+                            <a class="github-button" href="{{ site.project.blci.git }}"
+                            data-icon="octicon-star"
+                            data-count-href="{{ site.project.blci.git | append: '/stargazers' }}"
+                            data-count-api="{{ site.project.blci.git | prepend: '/repos' | append: '#stargazers_count' }}"
+                            data-count-aria-label="# stargazers on GitHub"
+                            aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
+                        </li>
+                        <li>
+                            <a class="github-button" href="{{ site.project.blci.git }}"
+                            data-icon="octicon-fork"
+                            data-count-href="{{ site.project.blci.git | append: '/forks' }}"
+                            data-count-api="{{ site.project.blci.git | prepend: '/repos' | append: '#forks_count' }}"
+                            data-count-aria-label="# forks on GitHub"
+                            aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+             -->
+
+
+        </div>
+    </div>
+    <br>
+</section>
+
+<section id="teaching" class="team features">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+
+        <div class="navy-line"></div>
+        <h1><span>Teaching</span></h1>
+
+	      <p><span style="font-size: medium !important;">
+	          I teach a <a href="http://disa-mhembere.github.io/Emerging-Technologies/" target="blank">
+	          Seminar in Emerging Technologies</a> for the MSEM program. We discuss, evaluate and
+	          develop concrete business plans for emerging and disruptive technologies. We also invite several
+	          CEOs and owners of businesses to speak.
+	      </span></p>
+
+	      <hr>
+
+	      <p><span style="font-size: medium !important;">
+	        I teach an <a href="https://disa-mhembere.github.io/MSEM-Excel-Python/" target="blank">
+	        Excel and Python bootcamp </a> for the MSEM program. Students learn
+	        (i) essential (advanced) skills in MS Excel, (ii) fundamental programming skills in Python
+	        to allow students to reason about how software is developed.
+	      </span></p>
+
+	      <hr>
+
+				<p><span style="font-size: medium !important;" id="pp">
+	      I have been a teaching assistant for <a href="http://parallel.cs.jhu.edu/" target="blank">
+	      Parallel Programming </a>	several times. We tackle topics and projects using OpenMP,
+	      Java Threads, Hadoop!/MapReduce, Spark, Message Passing Interface (MPI) and GPU
+	      programming via CUDA.
+	      </span></p>
+    	</div>
+    </div>
+  </div>
+</section>
+
+<section id="tennis" class="team gray-section features">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="navy-line"></div>
+        <h1><span>Tennis</span></h1>
+
+        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+          <p>
+          	<span style="font-size: medium !important;">
+        			I received a full scholarship to compete at NCAA D1 level for
+        			<a href="http://www.morganstatebears.com/roster.aspx?rp_id=833" target="blank">
+                        Morgan State University</a> as an undergraduate.
+        		</span>
+        	</p>
+        	<hr>
+        	<p>
+	        	<span style="font-size: medium !important;">
+	        	I am certified as a <b>USTA P1 (highest level)</b> high performance tennis coach.
+	        	I have trained players who have gone on to compete in NCAA D1 tennis at
+	        	<a href="http://www.pennathletics.com/sport/m-tennis" target="blank">UPenn</a>,
+	        	<a href="http://www.ohiostatebuckeyes.com/sports/m-tennis/osu-m-tennis-body.html"
+	        	target="blank">Ohio State University</a>, and
+	        	<a href="http://www.loyolagreyhounds.com/sport/m-tennis" target="blank">Loyola University</a>.
+	        	</span>
+        	</p>
+
+       </div>
+    	</div>
+    </div>
+  </div>
+</section>
+
+<!-- Publications -->
+<section id="pubs" class="team features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span>Publications</span></h1>
+        </div>
+        </div>
+
+        <div class="col-lg-8 col-lg-offset-2 m-t-lg m-b-lg" style="font-size: medium !important;">
+            <p>
+                <ol>
+                    <li>
+                        <i> Graphyti: Engineering An Efficient Semi-External
+                                Memory Graph Library in FlashGraph.</i>
+                        <b class=me>Disa Mhembere</b>, Da Zheng, Carey E Priebe,
+                        Joshua T. Vogelstein and Randal Burns.
+                        </i>In submission</i> IEEE Transactions on Knowledge and Data Engineering 2019.
+                    </li>
+
+                    <li>
+                        <i> clusterNOR: A NUMA-Optimized Clustering Framework.</i>
+                        <b class=me>Disa Mhembere</b>, Da Zheng, Carey E Priebe,
+                            Joshua T. Vogelstein and Randal Burns.
+                        </i>Under Review</i> IEEE Transactions on Parallel and Distributed Systems
+                        2019.
+                    </li>
+                    <li>
+                        <i> Forest Packing: Fast, Parallel Decision Forests.</i>
+                        James Browne, Tyler Tomita, <b class=me>Disa Mhembere</b>, Randal Burns and
+                        Joshua T. Vogelstein. SIAM International Conference on Data Mining (SDM19).
+                    </li>
+
+                    <li>
+                        <i>FlashR: parallelize and scale R for machine learning using SSDs. </i> Da Zheng, <b
+                        class=me>Disa Mhembere</b>, Joshua T. Vogelstein, Carey
+                    E. Priebe, and Randal Burns.
+                    Proceedings of the 23rd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming 2018
+			    <b class=me>(Best Paper Nomination)</b>.
+                    </li>
+
+                    <li>
+                        <i>knor: A NUMA-optimized In-memory, Distributed and Semi-external-memory k-means Library. </i> <b
+                        class=me>Disa Mhembere</b>, Da Zheng, Carey E. Priebe, Joshua T. Vogelstein, and Randal Burns.
+                    High-Performance Parallel and Distributed Computing (HPDC) Proceedings 2017 <b class=me>(Best Presentation Award)</b>.
+                    </li>
+
+                    <li>
+                  <i>FlashMatrix: Parallel, Scalable Data Analysis with Generalized Matrix Operations using Commodity SSDs. </i>
+                  Da Zheng, <b class=me>Disa Mhembere</b>, Joshua T. Vogelstein, Carey E. Priebe, and Randal Burns.
+                  <i>Under Review:</i> 2017.
+                    </li>
+
+                    <li>
+                  <i>Semi-External Memory Sparse Matrix Multiplication on
+                      Billion-node Graphs in a Multicore Architecture.</i>
+                  Da Zheng, <b class=me>Disa Mhembere</b>, Vince Lyzinski,
+                  Joshua T. Vogelstein, Carey E. Priebe, and Randal Burns.
+                  IEEE Transactions on Parallel and Distributed Systems 2017.
+                    </li>
+
+                  <li>
+                    <i>FlashGraph: Processing Billion-Node Graphs on an Array of Commodity SSDs.</i> Da Zheng,
+                    <b class=me>Disa Mhembere</b>, Joshua T. Vogelstein, Carey E.
+                    Priebe, Alexander Szalay, Randal Burns. FAST 2015.
+                  </li>
+                  <li>
+                  <i>Computing Scalable Multivariate Glocal Invariants of Large (Brain-) Graphs.</i> <b class=me>Disa Mhembere</b>,
+                  William Gray Roncal, Daniel Sussman, Carey E. Priebe, Rex Jung, Sephira Ryman, R. Jacob Vogelstein,
+                  Joshua T. Vogelstein, Randal Burns. Global Conference on Signal and Information Processing IEEE, 2013.
+                  </li>
+                  <li>
+                    <i>MIGRAINE: MRI Graph Reliability Analysis and Inference for Connectomics.</i> William Gray Roncal,
+                    Zachary H Koterba, <b class=me>Disa Mhembere</b>, Joshua T. Vogelstein, Randal Burns, R. Jacob Vogelstein.
+                    Global Conference on Signal and Information Processing IEEE, 2013.
+                  </li>
+                </ol>
+
+                <!-- Abstracts -->
+                <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3><span>Conference Abstracts</span></h3>
+                </div>
+                </div>
+                <ol>
+                <li>
+                <i>Spectral Clustering For Billion-Node Graphs. </i> Da Zheng, <b class=me>Disa Mhembere</b>, Youngser Park, Joshua T. Vogelstein,
+                Carey E. Priebe, Randal Burns. SIAM Workshop on Network Science 2016.
+                </li>
+
+                <li>
+                <i> MR Graph with Rich attribUTEs DataBase (Mr. GruteDB). </i> Gregory Kiar, William Gray Roncal, <b class=me>Disa Mhembere</b>,
+                Eric Bridgeford, Shangsi Wang, Carey E. Priebe, Randal Burns, Joshua T. Vogelstein. Proceedings of the Organization for Human
+                Brain Mapping conference (OHBM) 2016.
+                </li>
+
+                <li>
+                  <i>Multivariate Invariants from Massive Brain-Graphs.</i> <b class=me>Disa Mhembere</b>, Sephira Ryman, Daniel Sussman,
+                      Rex Jung, Joshua T. Vogelstein, R. Jacob Vogelstein, Carey
+                      E. Priebe, Randal Burns. Proceedings of the
+                      Organization for Human Brain Mapping conference (OHBM) 2013.
+                </li>
+
+                <li>
+                  <i>Massive Diffusion MRI Graph Structure Preserves Spatial Information.</i> Daniel L Sussman, <b class=me>Disa Mhembere</b>,
+                    Sephira Ryman, Rex Jung, R Jacob, Vogelstein, Randal Burns,
+                    Joshua T. Vogelstein, and Carey E. Priebe.
+                    Proceedings of the Organization for Human Brain Mapping conference (OHBM) 2013.
+                <li>
+                  <i>Robust Vertex Clustering of Massive Brain-Graphs via Lq-Likelihood.</i> Yichen Qin, <b class=me>Disa Mhembere</b>,
+                  Sephira Ryman, Rex Jung, R. Jacob Vogelstein, Randal Burns,
+                  Joshua T. Vogelstein, Randal Burns, Carey E. Priebe.
+                  Proceedings of the Organization for Human Brain Mapping conference (OHBM) 2013.
+                </li>
+                <li>
+                  <i>Feature Clustering from a Brain Graph for Voxel-to-Region Classification.</i> N. Sismanis, D. L. Sussman,
+                  J. T. Vogelstein, W. Gray, R. J. Vogelstein, E. Perlman, <b class=me>Disa Mhembere</b>, S. Ryman, R. Jung, R. Burns,
+                  C. E. Priebe, N. Pitsianis and X. Sun.
+                  Proceedings of the 2013 Greek Society of Biomedical Technology (ELEVIT) conference.
+                </li>
+                <li>
+                  <i>Automatic cardiac & respiratory cycle detection of self-gated cardiac cine MRI navigator projections.</i>
+                  <b class=me>Disa Mhembere</b>, Liheng Guo, J. Andrew Derbyshire, Elliot R. McVeigh, Daniel A. Herzka.
+                  Proceedings of 2010 Meeting of the Biomedical Engineering Society conference (BMES).
+                </li>
+                </ol>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!--
+<section id="blog" class="navy-section testimonials" style="margin-top: 0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
+                <br><br><br>
+                <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/blog/"><span data-i18n="blog.my_blog">My Blog</span></a>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<section id="link" class="contact features">
+    <div class="container" id="i18_link">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="link.link">Link</span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-4">
+                <div class="team-member wow zoomIn" style="font-size: medium !important;">
+                    <h4><span class="navy">{{ site.linkedin.first_name }}</span>
+                        {{ site.linkedin.last_name }}</h4>
+                    <p style="font-size: medium !important;">
+                        {{ site.linkedin.description }}
+                    </p>
+                    <ul class="list-inline social-icon">
+                        <li><a href="" target="blank"><i class="fa fa-link"></i></a>
+                        </li>
+                        <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p id="jalpc_site_pv"><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+    $(document).ready(function () {
+        $('body').scrollspy({
+            target: '.navbar-fixed-top',
+            offset: 80
+        });
+        // Page scrolling feature
+        $('a.page-scroll').bind('click', function(event) {
+            var link = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(link.attr('href')).offset().top - 50
+            }, 500);
+            event.preventDefault();
+            $("#navbar").collapse('hide');
+        });
+    });
+    var cbpAnimatedHeader = (function() {
+        var docElem = document.documentElement,
+                header = document.querySelector( '.navbar-default' ),
+                didScroll = false,
+                changeHeaderOn = 200;
+        function init() {
+            window.addEventListener( 'scroll', function( event ) {
+                if( !didScroll ) {
+                    didScroll = true;
+                    setTimeout( scrollPage, 250 );
+                }
+            }, false );
+        }
+        function scrollPage() {
+            var sy = scrollY();
+            if ( sy >= changeHeaderOn ) {
+                $(header).addClass('navbar-scroll')
+            }
+            else {
+                $(header).removeClass('navbar-scroll')
+            }
+            didScroll = false;
+        }
+        function scrollY() {
+            return window.pageYOffset || docElem.scrollTop;
+        }
+        init();
+
+    })();
+    // Activate WOW.js plugin for animation on scrol
+    new WOW().init();
+</script>
+
+<script>
+    $(document).ready(function (){
+        $.i18n.init({
+            resGetPath: 'static/locales/__lng__.json',
+            load: 'unspecific',
+            fallbackLng: false,
+            lng: 'en'
+        }, function (t){
+            $('.i18container').i18n();
+            // $('#i18_title').i18n();
+            $('#i18_navbar').i18n();
+            $('#i18_about_me').i18n();
+            $('#i18_skills').i18n();
+            $('#i18_projects').i18n();
+            $('#i18_experience').i18n();
+            $('#i18_blog').i18n();
+            $('#i18_link').i18n();
+        });
+        $('.set_en').on('click', function (){
+            i18n.setLng('en', function(){
+                $('.i18container').i18n();
+                // $('#i18_title').i18n();
+                $('#i18_navbar').i18n();
+                $('#i18_about_me').i18n();
+                $('#i18_skills').i18n();
+                $('#i18_projects').i18n();
+                $('#i18_experience').i18n();
+                $('#i18_blog').i18n();
+                $('#i18_link').i18n();
+                // $('.set_en').addClass('active');
+                // $('.set_cn').removeClass('active');
+            });
+        });
+        $('.set_cn').on('click', function (){
+            i18n.setLng('cn', function(){
+                $('.i18container').i18n();
+                // $('#i18_title').i18n();
+                $('#i18_navbar').i18n();
+                $('#i18_about_me').i18n();
+                $('#i18_skills').i18n();
+                $('#i18_projects').i18n();
+                $('#i18_experience').i18n();
+                $('#i18_blog').i18n();
+                $('#i18_link').i18n();
+                // $('.set_cn').addClass('active');
+                // $('.set_en').removeClass('active');
+            });
+        });
+    });
+</script>
